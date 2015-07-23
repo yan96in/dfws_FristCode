@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:orientation="horizontal" >
+    
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:button="@drawable/selector_search_cbx_bg"
+	    android:paddingLeft="30dp"
+	    android:text="酒店企业管理"
+	    android:textColor="@color/black"
+	    android:textSize="18sp"/>
+	<ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:src="@drawable/ic_function_next_20_36"
+	    android:contentDescription="@string/app_name"/>
+</RelativeLayout>

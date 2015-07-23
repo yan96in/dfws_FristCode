@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rela_sets_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_head_bg_480_80">
+
+        <TextView
+            android:id="@+id/txt_sets_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/more_feedback"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/txt_more_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_keyword_submit_bg"
+            android:text="@string/more_submit"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:id="@+id/subscribe_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_keyword_submit_bg"
+            android:src="@drawable/ic_return__left" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/more_job_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:maxLength="1000"
+        android:background="@drawable/ic_feedback_content"
+        android:gravity="top"
+        android:hint="@string/feedback_content"
+        android:padding="10dp"
+        android:textSize="@dimen/font_size_14" />
+
+    <EditText
+        android:id="@+id/more_job_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_feedback_tel"
+        android:digits="@string/type_name"
+        android:gravity="left|center_vertical"
+        android:hint="@string/feedback_tel"
+        android:maxLength="50"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size_14" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#ff0066FF</color>
+    <color name="deep_blue">#ff0a51a1</color>
+    <color name="red">#FFFF0000</color>
+    <color name="no_color">#00000000</color>
+    <color name="black">#FF000000</color>
+    <color name="black_half">#50000000</color>
+    <color name="lightyellow">#FFFFFFE0</color>
+    <color name="whitesomke">#fff5f5f5</color> <!-- 烟白色——首页底部菜单 -->
+    <color name="whitesomke1">#55f5f5f5</color> <!-- 烟白色——首页底部菜单 -->
+    <color name="lightred">#b3ff5400</color> <!-- 淡红色———今日头条背景 -->
+    <color name="darkcyan">#b3009bc7</color> <!-- 深青色———首页item背景 -->
+    <color name="ghostwhite">#00f8f8f8</color> <!-- 幽灵白————登录和账号管理背景 -->
+    <color name="lavender">#00f2f2f2</color> <!-- 淡紫色————来源、回复背景 -->
+    <color name="lightgray">#ffefefef</color> <!-- 阅读页背景 -->
+    <color name="Lightgreen">#ff90EE90</color>
+    <color name="darkseagreen">#ff8FBC8F</color>
+    <color name="gray">#FFECF5E4</color>
+    <color name="radiobg_press">#43859d</color>
+    <color name="radiobg_normal">#555555</color>
+    <color name="image_bg">#e68027</color>
+    <color name="about_bg">#efefef</color> <!-- 关于界面 文字颜色   灰色-->
+    <color name="dialog_btn_press">#FFFF00</color>
+    <color name="share_dialog_bg">#ecedee</color>
+    <color name="gray_deep">#FF666666</color>
+    <color name="gray_deep1">#FFd5d5d5</color>
+    <color name="gray_deep2">#FF898989</color>
+    <color name="yellow">#fffc9a39</color><!-- 黄色-->
+    <color name="msg_bg">#000000</color>
+    <color name="msg_hand">#666666</color>
+    <color name="msg_hand_1">#fc9a39</color>
+    <color name="but_press">#b96e2c</color>
+    <color name="but_normal">#e68027</color>
+
+</resources>

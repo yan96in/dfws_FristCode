@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">最佳东方</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="time">2014&#8211;03&#8211;14</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <!-- ************************main tabs************************** -->
+    <string name="menu_item_search">职位搜索</string>
+    <string name="menu_item_msg">消息中心</string>
+    <string name="menu_item_mycenter">个人中心</string>
+    <string name="check_net_status">网络连接异常，请检查网络</string>
+    <!-- ************************message tabs************************** -->
+    <string name="menu_item_job">职位订阅</string>
+    <string name="menu_item_message">谁看过我</string>
+    <string name="menu_item_mymessage">我的消息</string>
+    <!-- ************************more 更多************************** -->
+    <string name="more_title">更多</string>
+    <string name="more_job">职位订阅</string>
+    <string name="more_category">职位类别</string>
+    <string name="more_place">工作地点</string>
+    <string name="more_salary">薪资待遇</string>
+    <string name="more_Room">食宿情况</string>
+    <string name="more_nature">职位性质</string>
+    <string name="more_frequency">推送频率</string>
+    <!-- ================ 职位订阅============================= -->
+    <string name="more_Settings">推送设置</string>
+    <string name="more_Settingss">推送通知</string>
+    <string name="more_SettinDate">推送时间</string>
+    <string name="more_submits">保存</string>
+    <string name="more_notice">通知类型</string>
+    <string name="more_MyMEessage">我的消息</string>
+    <string name="more_seen">谁看过我</string>
+    <string name="more_fair">招聘会</string>
+    <string name="more_submit">提交</string>
+    <!-- ================ 更多============================= -->
+    <string name="more_feedback">意见反馈</string>
+    <string name="more_share">应用分享</string>
+    <string name="more_guide">新手指引</string>
+    <string name="more_About">关于我们</string>
+    <string name="more_Update">检查更新</string>
+    <!-- ================ 关于============================= -->
+    <string name="about_content"> 最佳东方（VeryEast.Cn）属杭州东方网升科技有限公司旗下，是中国最权威、最专业的旅游、酒店、餐饮业招聘第一品牌，也是客户量最大，访问量最多，数据最丰富的行业招聘网站。最佳东方曾获"中国酒店最具价值合作伙伴"等荣誉，并多年蝉联"中国行业网站百强网站。"</string>
+    <string name="about_web">官网网站：</string>
+    <string name="about_web1">www.veryeast.cn</string>
+    <string name="about_moble">手机网站：</string>
+    <string name="about_moble1">m.veryeast.cn</string>
+    <string name="about_weibo">官方微博：</string>
+    <string name="about_weibo1">http://e.weibo.com</string>
+    <string name="about_copyright">Copyright 2003 &#8211; 2014 最佳东方版权所有</string>
+    <string name="about_tel">热线电话</string>
+    <string name="about_tel1">400&#8211;826&#8211;0101</string>
+    <string name="about_version">最佳东方 3.0</string>
+    <!-- ================ 反馈============================= -->
+    <string name="feedback_content">最佳东方触屏版首次亮相，为了更好的体验， 期待您的反馈，我们将会不断改进</string>
+    <string name="feedback_tel">手机号/Email：方便我们及时给您回复</string>
+    <string name="menu_item_more">更多</string>
+    <string name="search_key_word_hint">请输入关键字</string>
+    <string name="search_address_hint">选择工作地点</string>
+    <string name="search_position_class">选择职位类别</string>
+    <string name="search">搜索</string>
+    <string name="search_clear_history">清空历史记录</string>
+    <string name="search_target_title">猜你想找的 </string>
+    <string name="search_keyword_finish">完成</string>
+    <string name="search_keyword_full">全文搜索 </string>
+    <string name="search_keyword_position_name">职位名</string>
+    <string name="search_keyword_enterprise">企业名</string>
+    <string name="search_address_title">选择工作地点</string>
+    <string name="search_positionclass_title">选择职位类别</string>
+    <string name="search_address_submit">不限</string>
+    <string name="search_address_current_city">当前城市</string>
+    <string name="search_address_hot_city">热门城市</string>
+    <string name="search_address_province">按省份选择城市</string>
+    <string name="search_position_hint">酒店企业管理</string>
+    <string name="search_list_title">销售+杭州</string>
+    <string name="search_list_fiter">筛选</string>
+    <string name="search_list_apply">立即申请</string>
+    <string name="search_list_unapply">删除记录</string>
+    <string name="search_list_applied">已经申请</string>
+    <string name="search_company_follow">加关注</string>
+    <string name="search_company_followed">已经关注</string>
+    <string name="search_fiter_title">筛选</string>
+    <string name="search_fiter_update_time">更新时间</string>
+    <string name="search_fiter_educations">学历要求</string>
+    <string name="position_list_null_notice">该企业尚未发布任何职位 想要找工作，快去试试搜索吧！</string>
+    <string name="position_list_empty_notice">没有符合条件的职位，请换个条件重新搜索！</string>
+
+    <!-- ================ 消息============================= -->
+    <string name="msg_time">2014&#8211;3&#8211;18</string>
+    <string name="msg_title_name">杭州东方网升有限公司</string>
+    <string name="msg_title_time">2014&#8211;3&#8211;19</string>
+    <string name="msg_title_time_name">查看时间:</string>
+    <string name="msg_title_totle">共</string>
+    <string name="msg_title_nable">1</string>
+    <string name="msg_title_next">次</string>
+    <string name="msg_title_my_name">最佳西方</string>
+    <string name="msg_title_content">最佳東方首頁全新改版</string>
+    <string name="msg_title_job_nuber">个职位</string>
+    <string name="msg_title_job_content">杭州东方网升科技有限公司&#8230;</string>
+    <string name="msg_job_news">每一次的浏览背后,</string>
+    <string name="msg_job_news_1">都代表着一次机会!</string>
+    <string name="msg_job_content">无人青睐? 去完善简历</string>
+    <string name="msg_job_apply">去申请职位</string>
+    <string name="msg_news_title_hr">HR来信</string>
+    <string name="msg_news_title_name">亲爱的xx,最佳西方酒店邀请你来面试酒店前厅经理职位！</string>
+    <string name="msg_news_title_email">最佳西方</string>
+    <string name="msg_news_title_email_name">发送人:</string>
+    <string name="msg_news_title_time_name">发送时间:</string>
+    <string name="msg_news_title_time">2014&#8211;3&#8211;21</string>
+    <string name="msg_news_title_content">我们最佳西方已经收到你的通过最佳东方发来的应聘资料，面试时请带上资料。</string>
+    <string name="msg_job_title_time">02</string>
+    <string name="msg_job_title_name">APR</string>
+    <!-- ================ 检查更新============================= -->
+    <string name="more_update_title">檢查更新</string>
+    <string name="more_update_content">最佳東方3.0</string>
+    <string name="more_update_ok">立即更新</string>
+    <string name="more_update_clean">稍後更新</string>
+
+    <!-- *********** 下载服务************************* -->
+    <string name="download_01">服务器连接失败，请稍后再试！</string>
+    <string name="download_02">服务器端文件不存在，下载失败！</string>
+    <string name="download_03">下载完成</string>
+    <string name="download_04">文件已下载完毕</string>
+    <string name="download_05">正在下载</string>
+
+    <!-- share  分享 -->
+    <string name="share_sms_content">我正在使用“迈点阅读”2.0，全新阅读模式。操作方便，更贴心。新增微信、朋友圈、QQ空间等多种照片分享渠道，推荐给大家~~~</string>
+    <string name="share_errcode_success">发送成功</string>
+    <string name="share_errcode_cancel">发送取消</string>
+    <string name="share_errcode_deny">发送被拒绝</string>
+    <string name="share_errcode_unknown">未知错误</string>
+    <string name="share_sina">新浪微博</string>
+    <string name="share_tencent">腾讯微博</string>
+    <string name="share_qqspace">QQ空间</string>
+    <string name="share_weixin_friend">微信好友</string>
+    <string name="share_weixin_circle">微信朋友圈</string>
+    <string name="share_sms">短信</string>
+    <string name="share_email">邮件</string>
+    <string name="share_to">分享到</string>
+
+    <!-- ========  职位订阅子页面============= -->
+    <string name="more_job_place">选择地区</string>
+    <string name="more_job_current">当前城市:</string>
+    <string name="more_job_test">杭州市</string>
+    <string name="more_job_hot">热门城市</string>
+    <string name="more_job_nohot">其他城市</string>
+    <string name="more_job_submit">确定</string>
+    <string name="more_job_place_buxian">全国</string>
+    <string name="more_job_place_beijing">北京</string>
+    <string name="more_job_place_shanghai">上海</string>
+    <string name="more_job_place_guangz">广州</string>
+    <string name="more_job_place_haikou">海口</string>
+    <string name="more_job_place_shenzhen">深圳</string>
+    <string name="more_job_place_hangzhou">杭州</string>
+    <string name="more_job_place_chengdu">成都</string>
+    <string name="more_job_place_suzhou">苏州</string>
+    <string name="more_job_place_tianjing">天津</string>
+    <string name="more_job_place_wuhan">武汉</string>
+    <string name="Every_day">每天</string>
+    <string name="Every_weeky">每周</string>
+    <string name="Every_weekys">每两周</string>
+    <string name="Every_month">每月</string>
+    <!-- 全职、兼职、实习、临时 -->
+    <string name="full_time">全职</string>
+    <string name="part_time">兼职</string>
+    <string name="internship">实习</string>
+    <string name="temporary">临时</string>
+    <!-- 不限、提供食宿、不提供食宿、提供吃、提供住 -->
+    <string name="room_limit">不限</string>
+    <string name="room_board">提供食宿</string>
+    <string name="room_not_board">不提供</string>
+    <string name="room_provide">提供吃</string>
+    <string name="room_live">提供住</string>
+
+    <!-- ******************个人中心***************** -->
+    <string name="logout">注销</string>
+    <string name="mycenter_myresume">我的简历</string>
+    <string name="mycenter_refresh_resume">刷新简历</string>
+    <string name="mycenter_position_applyfor_log">职位申请记录</string>
+    <string name="mycenter_position_favorite">职位收藏夹</string>
+    <string name="mycenter_attention_enterprise">关注的企业</string>
+    <string name="mycenter_jobfair">招聘会</string>
+    <string name="mycenter_modify_password">修改密码</string>
+    <string name="mycenter_resume_finish_status">您当前简历完整程度:</string>
+    <string name="mycenter_create_resume">创建微简历</string>
+    <string name="mycenter_apply_title">职位申请记录</string>
+    <string name="mycenter_apply_manage">管理</string>
+    <string name="mycenter_apply">申请</string>
+    <string name="mycenter_position_favorite_fiter">过滤</string>
+    <string name="mycenter_position_favorite_fav">收藏</string>
+    <string name="mycenter_position_favorite_attention">关注</string>
+    <string name="mycenter_myresume_photo">照片</string>
+    <string name="mycenter_myresume_use_status">求职状态</string>
+    <string name="mycenter_myresume_use_status_hint">正在找工作</string>
+    <string name="mycenter_myresume_finish_info">完善信息，让企业记住你</string>
+    <string name="mycenter_myresume_base_info">基本信息</string>
+    <string name="mycenter_myresume_finish">完整</string>
+    <string name="mycenter_myresume_job_favorite">求职意向</string>
+    <string name="mycenter_myresume_not_finish">不完整</string>
+    <string name="mycenter_myresume_edu">教育经历</string>
+    <string name="mycenter_myresume_works">工作经验</string>
+    <string name="mycenter_myresume_extra_info">加分信息，让企业对你更多心动</string>
+    <string name="mycenter_myresume_language">语言能力</string>
+    <string name="mycenter_myresume_talent">技能和特长</string>
+    <string name="mycenter_myresume_train">培训经历</string>
+    <string name="mycenter_myresume_certificate">证书</string>
+
+    <!-- ******************我的简历基本信息****************** -->
+    <string name="myresume_baseinfo_title">基本信息</string>
+    <string name="myresume_baseinfo_name">姓名</string>
+    <string name="myresume_baseinfo_gender">性别</string>
+    <string name="myresume_baseinfo_birthday">出生日期</string>
+    <string name="myresume_baseinfo_works">工作经验</string>
+    <string name="myresume_baseinfo_graduate">毕业时间</string>
+    <string name="myresume_baseinfo_degree">最高学历</string>
+    <string name="myresume_baseinfo_current_address">现居地</string>
+    <string name="myresume_baseinfo_home_address">户籍地</string>
+    <string name="myresume_baseinfo_phone">手机号码</string>
+    <string name="myresume_baseinfo_jobstatus">求职状态</string>
+    <string name="myresume_baseinfo_height">身高(cm)</string>
+    <string name="myresume_baseinfo_email">E-mail</string>
+    <string name="myresume_baseinfo_weight">体重(kg)</string>
+    <string name="myresume_baseinfo_idtype">证件类型</string>
+    <string name="myresume_baseinfo_idnumber">证件号码</string>
+    <string name="_">面议</string>
+
+    <!-- ******************我的简历求职意向****************** -->
+    <string name="myresume_jobfavorite_jobtype">工作类型</string>
+    <string name="myresume_jobfavorite_address">工作地点</string>
+    <string name="myresume_jobfavorite_favorite_position">意向职位</string>
+    <string name="myresume_jobfavorite_favorite_enterprise">意向企业</string>
+    <string name="myresume_jobfavorite_star">星级</string>
+    <string name="myresume_jobfavorite_starttime">到岗时间</string>
+    <string name="myresume_jobfavorite_haven_salary">目前薪资</string>
+    <string name="myresume_jobfavorite_expect_salary">期望薪资</string>
+
+    <!-- ****************教育经历*************** -->
+    <string name="myresume_edu_add">添加教育经历</string>
+
+    <!-- ***************添加证书************** -->
+    <string name="add_certification">添加证书</string>
+    <string name="delete_certification">删除证书</string>
+
+    <!-- ***************添加工作经验************** -->
+    <string name="add_work">添加工作经验</string>
+    <string name="delete_work">删除工作经验</string>
+    <!-- ***************添加教育经历************** -->
+    <string name="add_edu">添加教育经历</string>
+    <string name="delete_edu">删除教育经历</string>
+    <!-- ***************添加工作经验************** -->
+    <string name="add_lang">添加语言</string>
+    <string name="delete_lang">删除语言</string>
+    
+    <!-- *******************添加培训经历************************* -->
+    <string name="add_training">添加培训经历</string>
+    <string name="delete_training">删除培训经历</string>
+    
+    <string name="add_skill">添加技能和特长</string>
+    <string name="delete_skill">删除技能和特长</string>
+
+    <!-- *************** 会员登录 *************** -->
+    <string name="check_login">qwertyuiopasdfghjklzxcvbnm0123456789@_.-</string>
+    <string name="login">登录</string>
+    <string name="personal_1">还差一步，你就可以使用第三方账号登录最佳东方了！</string>
+    <string name="personal_2">未注册过最佳东方</string>
+    <string name="personal_3">已注册过最佳东方</string>
+    <string name="personal_4">将为你创建一个新账号，与第三方账号绑定</string>
+    <string name="personal_5">用户名:3位以上，建议使用邮箱或手机号</string>
+    <string name="personal_6">电子邮箱:帮助你找回密码</string>
+    <string name="personal_7">密       码: 6~20个字母或数字</string>
+    <string name="personal_8">重复密码:</string>
+    <string name="personal_9">注册并且绑定</string>
+    <string name="personal_10">账号绑定</string>
+    <string name="password_1">忘记密码</string>
+    <string name="password_2">验证码注册时等级的手机号码，我们会将短信验证码发送至该手机，请主意查收！</string>
+    <string name="password_3">手机:请输入注册时所填写的手机号码</string>
+    <string name="password_4">发送</string>
+    <string name="login_1">会员登录</string>
+    <string name="login_2">免费注册</string>
+    <string name="login_3">忘记密码？</string>
+    <string name="login_4">使用合作账号登录</string>
+    <string name="reg_1">会员注册</string>
+    <string name="reg_2">用户名:3位以上，建议使用邮箱或手机号注册</string>
+    <string name="reg_3">电子邮箱：帮助你找回密码</string>
+    <string name="reg_4">密码:6~20个字母或数字</string>
+    <string name="reg_5">重复密码:</string>
+    <string name="reg_6">注册</string>
+    <string name="ret_1">重置密码</string>
+    <string name="ret_2">提交</string>
+    <string name="ret_3">验证码：请输入验证码</string>
+    <string name="ret_4">新密码：6~20个字母或数字</string>
+    <string name="ret_5">确认密码：重新输入 新密码</string>
+    <string name="ret_6">原密码</string>
+    <string name="ret_7">重复密码</string>
+    <string name="ret_8">修改密码</string>
+    <string name="reg_username">请输入用户名</string>
+    <string name="reg_usernamess">用户名必须是三位以上</string>
+    <string name="reg_username2">用户名或者邮箱格式不对</string>
+    <string name="reg_pass">请输入密码</string>
+    <string name="reg_pass1">请重复密码</string>
+    <string name="reg_pass2">两次密码不一致</string>
+    <string name="reg_email">请输入正确的邮箱</string>
+    <string name="reg_email1">邮箱格式不正确</string>
+    <string name="reg_usernamesss">邮箱或用户名格式不正确！</string>
+    <string name="resume_1">微简历</string>
+    <string name="resume_2">恭喜你，账号注册成功！</string>
+    <string name="resume_3">三分钟创建一份简历，立即申请好工作！</string>
+    <string name="micro_1">姓名</string>
+    <string name="micro_2">请输入姓名</string>
+    <string name="micro_3">性别</string>
+    <string name="micro_4">请选择性别</string>
+    <string name="micro_5">手机号码</string>
+    <string name="micro_6">请输入手机号码</string>
+    <string name="micro_7">出生日期</string>
+    <string name="micro_8">请选择出生日期</string>
+    <string name="micro_9">意向地点</string>
+    <string name="micro_10">请选择意向地点</string>
+    <string name="micro_11">意向职位</string>
+    <string name="micro_12">请选择意向职位</string>
+    <string name="micro_13">身高</string>
+    <string name="micro_14">请输入身高</string>
+    <string name="micro_15">学历</string>
+    <string name="micro_16">请选择学历</string>
+    <string name="micro_17">期望薪资</string>
+    <string name="micro_18">请选择期望薪资</string>
+    <string name="txt_1">请选择性别</string>
+    <string name="txt_2">男</string>
+    <string name="txt_3">女</string>
+    <string name="txt_4">请选择学历</string>
+    <string name="txt_5">不限</string>
+    <string name="txt_6">初中</string>
+    <string name="txt_7">高中</string>
+    <string name="txt_8">大专</string>
+    <string name="txt_9">本科</string>
+    <string name="txt_10">硕士</string>
+    <string name="txt_11">博士</string>
+    <string name="t_1">期望薪资</string>
+    <string name="t_2">意向地点</string>
+    <string name="t_3">意向职位</string>
+
+    <!-- ***********job info********** -->
+    <string name="jobinfo_title">职位详情</string>
+    <string name="jobinfo_workplace">工作地点：</string>
+    <string name="jobinfo_condition">招聘条件：</string>
+    <string name="jobinfo_salary">薪资待遇：</string>
+    <string name="jobinfo_room_board">提供食宿：</string>
+    <string name="jobinfo_tab_company">企业详情</string>
+    <string name="jobinfo_describe">职位描述</string>
+    <string name="jobinfo_duty">岗位职责</string>
+    <string name="jobinfo_contact_us">联系我们</string>
+    <string name="jobinfo_contacter">联系人：</string>
+    <string name="jobinfo_contact_tele">联系电话：</string>
+    <string name="jobinfo_phone">手  机：</string>
+    <string name="jobinfo_email">邮  箱：</string>
+    <string name="jobinfo_address">地址：</string>
+    <string name="jobinfo_industy">行业：</string>
+    <string name="jobinfo_mode">性质：</string>
+    <string name="jobinfo_scope">规模：</string>
+    <string name="jobinfo_degree">雇主指数</string>
+    <string name="jobinfo_company_describe">企业介绍</string>
+    <string name="jobinfo_company_other_job">该企业其他职位</string>
+
+    <!-- ******************我的简历__求职意向********************* -->
+    <string name="myresume_intention_area_selected">已选地点</string>
+    <string name="myresume_intention_position">职位类别</string>
+    <string name="myresume_intention_position_selected">已选职位</string>
+    <string name="myresume_intention_industry">意向企业</string>
+    <string name="myresume_intention_industry_selected">已选意向企业</string>
+    <string name="myresume_intention_star">选择星级</string>
+    <string name="myresume_intention_work_mode">选择工作类型</string>
+    <string name="myresume_intention_arrive">选择到岗时间</string>
+    <string name="myresume_intention_desired_salary">期望薪资</string>
+    <string name="myresume_intention_salary_mode">薪资类型</string>
+    <string name="myresume_intention_salary_currency">货币类型</string>
+    <string name="myresume_intention_salary_scope">薪资范围</string>
+
+    <!-- ******************举报********************* -->
+    <string name="report">举报</string>
+    <string name="report_type">举报类型</string>
+    <string name="report_type1">虚假招聘</string>
+    <string name="report_type2">冒用公司</string>
+    <string name="report_type3">分类错误</string>
+    <string name="report_type4">职介</string>
+    <string name="report_type5">其他</string>
+    <string name="report_description">情况说明</string>
+    <string name="report_contact">您的联系方式</string>
+    <string name="report_contact_notice">（便于我们有效跟进和及时处理）</string>
+    <string name="report_contact_phone">手机号：</string>
+    <string name="report_contact_email">邮箱：</string>
+    <string name="feedback_name">qwertyuiopasdfghjklzxcvbnm1234567890._-@QWERTYUIOPASDFGHJKLZXCVBNM</string>
+    <string name="type_name">qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM_.@-</string>
+    <string name="phone_name">0123456789</string>
+    <string name="is_show">企业查看简历时是否显示为面议</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+   <item type="id" name="menu_item_search">false</item>
+   <item type="id" name="menu_item_msg">false</item>
+   <item type="id" name="menu_item_mycenter">false</item>
+   <item type="id" name="menu_item_more">false</item>
+   <item type="id" name="menu_item_msg_notice">false</item>
+   <item type="id" name="menu_item_mycenter_notice">false</item>
+   <item type="id" name="goback">false</item>
+</resources>

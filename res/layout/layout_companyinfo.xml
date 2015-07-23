@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_head_bg_480_80" >
+
+        <ImageButton
+            android:id="@+id/image_but_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_keyword_submit_bg"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_return__left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="企业详情"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        
+    </RelativeLayout>
+
+     <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <zjdf.zhaogongzuo.ui.JobInfoCompanyView
+        android:id="@+id/ui_company"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_marginBottom="50dp"/>
+     <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_position_list_apply_bg_480_58"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/btn_attention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/selector_position_apply_bg"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/search_list_apply"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+</RelativeLayout>
+</LinearLayout>

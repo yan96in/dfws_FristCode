@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_head_bg_480_80"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edt_keyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4"
+            android:background="@drawable/ic_keyword_search_bg_420_28"
+            android:drawableLeft="@drawable/ic_keyword_search_drawable_28_28"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:maxLength="100"
+            android:hint="@string/search_key_word_hint"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_keyword_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/selector_keyword_submit_bg"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rgroup_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/ic_target_bg_480_60" >
+
+        <RadioButton
+            android:id="@+id/rbtn_keyword_full"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:checked="true"
+            android:button="@null"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/selector_radiobutton_bg"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:text="@string/search_keyword_full"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn_keyword_position_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:button="@null"
+            android:background="@drawable/selector_radiobutton_bg"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:text="@string/search_keyword_position_name"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbtn_keyword_enterprise_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="20dp"
+            android:button="@null"
+            android:background="@drawable/selector_radiobutton_bg"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@color/black"
+            android:text="@string/search_keyword_enterprise"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ListView
+            android:id="@+id/lv_keyword_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="60dp"
+            android:scrollbars="none"
+            android:cacheColorHint="@color/no_color"
+            android:listSelector="@android:drawable/list_selector_background"
+            android:divider="@null"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/linear_clear_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ic_target_bg_480_60"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_dustbin_27_28"
+                android:drawablePadding="8dp" 
+                android:gravity="center_vertical"
+                android:text="@string/search_clear_history"
+                android:textSize="16sp"
+                android:textColor="@color/yellow"
+                android:background="@drawable/selector_item_bg"/>
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</LinearLayout>

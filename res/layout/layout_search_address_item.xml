@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_item_bg"
+    android:padding="8dp"
+    android:id="@+id/rela_item">
+    
+	<CheckBox 
+	    android:id="@+id/cbx_title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:focusable="false"
+	    android:button="@drawable/selector_search_cbx_bg"
+	    android:paddingLeft="30dp"
+	    android:text="杭州"
+	    android:textColor="@color/black"
+	    android:textSize="18sp"/>
+	<ImageView
+	    android:id="@+id/iv_next"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:src="@drawable/ic_function_next_20_36"
+	    android:contentDescription="@string/app_name"/>
+</RelativeLayout>

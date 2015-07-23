@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rdo_group_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_jobinfo_tabs_bg_480_42"
+        android:orientation="horizontal"
+        android:paddingBottom="1dp" >
+
+        <RadioButton
+            android:id="@+id/rdo_job_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_jobinfo_tab_bg"
+            android:button="@null"
+            android:checked="true"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="@string/jobinfo_title"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rdo_company_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_jobinfo_tab_bg"
+            android:button="@null"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="@string/jobinfo_tab_company"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:paddingBottom="40dp">
+
+        <zjdf.zhaogongzuo.ui.JobInfoCompanyView 
+            android:id="@+id/jobinfo_company"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+       <zjdf.zhaogongzuo.ui.JobInfoJobView
+            android:id="@+id/jobinfo_job"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_position_list_apply_bg_480_58"
+            android:layout_alignParentBottom="true">
+       
+            <ImageButton 
+                android:id="@+id/ibtn_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/selector_jobinfo_favorite"
+                android:contentDescription="@string/app_name"/>
+            <Button
+                android:id="@+id/btn_apply_or_attention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/selector_position_apply_bg"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/search_list_apply"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            <ImageButton 
+                android:id="@+id/ibtn_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/selector_jobinfo_share"
+                android:contentDescription="@string/app_name"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:state_pressed="true"
+            android:drawable="@drawable/listview_bg_small_color">
+            <shape>  
+      <gradient  
+         android:startColor="#FCFCFC"  
+         android:centerColor="#F0F0F0"  
+         android:endColor="#FCFCFC"  
+         android:height="1px"  
+         android:angle="0"/>  
+  </shape>  
+            </item>
+    <item android:state_enabled="true"
+        android:drawable="@color/white">
+            <shape>  
+      <gradient  
+         android:startColor="#FCFCFC"  
+         android:centerColor="#F0F0F0"  
+         android:endColor="#FCFCFC"  
+         android:height="1px"  
+         android:angle="0"/>  
+  </shape>  
+         </item>
+</selector>
